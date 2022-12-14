@@ -1,0 +1,32 @@
+.container {
+    transition: box-shadow 0.3s;
+    overflow: hidden;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.container:hover {
+    box-shadow: 6px 6px 11px rgba(33, 33, 33, 0.2);
+}
+
+.img-container {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+.desc {
+    background-color: #fff;
+    padding: 8px 16px;
+}
+
+.author {
+}

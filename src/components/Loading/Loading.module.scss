@@ -1,0 +1,21 @@
+.loading {
+    animation: rotateround 500ms linear 0s infinite forwards;
+    -webkit-animation: rotateround 500ms linear 0s infinite forwards;
+}
+
+@keyframes rotateround {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
